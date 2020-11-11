@@ -1,0 +1,106 @@
+% possible options include font size ('10pt', '11pt' and '12pt'), 
+% paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') 
+% font family ('sans' and 'roman')
+
+\documentclass[11pt,a4paper,roman]{moderncv}        
+
+% moderncv themes
+% style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvstyle{classic}   
+% color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'                          
+\moderncvcolor{burgundy}                             
+\nopagenumbers{}
+
+\usepackage[utf8]{inputenc}                      
+
+
+% adjust the page margins
+\usepackage[margin=1cm]{geometry}
+\setlength{\hintscolumnwidth}{3cm}
+
+% personal data
+\name{Christian}{Hiricoiu}
+\title{Mechanical Aircraft Engineer}                               
+\quote{Looking for opportunities in \textbf{scientific programming}}
+
+
+\phone[mobile]{+33~(0)7~69~23~00~64}
+\email{christian.hiric@protonmail.com} 
+\social[linkedin]{christianhiricoiu27}
+\social[github]{Foussy} 
+
+\extrainfo{25 years old\\~\\French -- mother tongue\\English -- fluent (TOEIC : 965)\\Deutsch -- A2\\Español -- A2}
+%\photo[85pt][0.0mm]{Photo/picture}
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvhead
+
+		\section{Education}		
+				\cventry{2018--2020}{Master Maschinenbau}{Hochschule Mannheim -- Germany}{}{}	
+				{advanced Matlab programming, fluid mechanics (theory \& CFD), material science, ...}
+				
+				\cventry{2016--2019}{Mechanical Engineer Degree}{Ecole Nationale Supérieure des Arts \& Métiers}{}{}
+				{solid \& fluid mechanics, FEA \& CFD, material science, manufacturing processes, industrialization, ...}
+				
+				\cventry{2014-2016}{Technical University Degree - Mechanical Engineering}{IUT Poitiers}{}{}
+				{}
+
+		\section{Experiences}	
+				\cventry{since Oct 2019}{Aircraft Engineer}{Design Tech Centre}{Saint-Cloud -- France}{}{
+						\begin{itemize}						
+								\item design \& calculation of an aerobatic airplane made of composite materials (P-51 Mustang) :
+                                \begin{itemize}
+                                        \item designing \& drafting CAD parts				
+										\item flight mechanics \& aircraft balancing					
+										\item dimensioning of cooling system reducing drag effect (radiator \& oil circuit)
+										\item dimensioning of flight controls
+										\item structural analysis of the overall structure
+										\item FEA with composite materials methods \& tools (workflow \& scripting process)
+                                \end{itemize}
+                                \item programming various tools/scripts for the team/project
+								\item several independent FEA assigments : composite \& isotropic materials
+								\item canvassing for subcontractors \& purchasing customized parts
+						\end{itemize}}
+		
+				\cventry{Feb -- Sep 2019}{Internship}{AIRBUS Helicopters}{Marignane -- France}{6 months}{
+						\begin{itemize}						
+								\item Gearboxes transmission \& toothing gears optimization :
+								\begin{itemize}										
+										\item programming of a toolbox/software for the gears development
+										\item pre-dimensioning of cylindrical and spiro-conical gears
+								\end{itemize}
+						\end{itemize}}
+						
+				\cventry{2018 -- 2019}{Freelance - 3D Designer}{Auto-entrepreneur}{}{11 months}{
+						\begin{itemize}
+								\item CAD designing : Skateboard, Drift Trike Frame, tablefootball, etc...
+								\item Major contract (4 months):  Design of a laser cutting machine, establishing \& delivering the specs
+										\begin{itemize}
+												\item drafting of technical specifications from scratch
+												\item pre-dimensioning of the main parts 												
+										\end{itemize}										
+						\end{itemize}}
+
+		\section{Skills}
+				\cvdoubleitem{CAD :}{CatiaV5 \& Autodesk Inventor}					{Programming :} {Python3 \footnotesize (scripts/web-scrapper/OOP) }
+				\cvdoubleitem{FEA \& CFD :}{ANSYS, StarCCM+}						{}              {C++ \footnotesize (data analysis/post-processer/OOP)}
+				\cvdoubleitem{Productivity :}{\LaTeX, Office365, LibreOffice}		{}              {Qt/PyQt lib, Matlab, git/github}
+						
+		\section{Projects}
+                \cvitem{Metrics (2017--2018)}{research project on the compensation of geometrical defects of a 5-axis machining unit}
+                
+		\section{Hobbies}
+				\cvitem{Sports :}{athletics (12 years of intensive practice), rugby - amateur level (5 years), climbing, hiking}
+				\cvitem{PC \& Tech :}{hardware/software industry, Linux, raspberry pi, automation, multimedia, etc..}
+                \cvitem{Chess :}{play on regular basis}
+                
+				
+\clearpage
+
+\end{document}
